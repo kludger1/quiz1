@@ -12,3 +12,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+.container {
+ width: 900px;
+ margin: 0 auto;
+ margin-top: 10rem;
+ border-top: 1px solid lightgray;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+  border-top: transparent;
+  padding: .3rem;
+}
+
+.name {
+  color: #7CA5CE;
+}
+
+.fa-file-alt {
+  color: #A4B5C5;
+}
+
+.description {
+ color: #707070;
+}
+
+.time {
+  color: #707070;
+}
